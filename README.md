@@ -1,5 +1,8 @@
 # xFluid
-XFluid is a fluid simulation project. It simulate 3D water using grdi based methods.
+
+![image](https://github.com/xbubbles/image_repository/blob/master/img_xfluid_5.png)
+
+XFluid is a fluid simulation project. It simulate 3D water using grdi based methods.  
 
 A reference code project:
 https://github.com/rlguy/GridFluidSim3D
