@@ -11,12 +11,26 @@ Routine of time step:
 5. Extrapolate velocity field.  
 6. Advect particles and update velocity field.  
 
+&emsp;
+&emsp;
 
 ## Pressure solver
 xFluid contains two different pressure solvers:   
 1. Normal pressure sovler;  
 2. Variational pressure solver.  
 
-** Normal pressure solver **
+### Normal pressure solver
 This pressure solver directly calculate pressure by solve the uncompressible equation:  
-$$ \nabla u = 0$$
+```math
+\nabla \mathbf{u} = 0
+```
+Discrete this equation in 3D grids, and we will get a positive definite symmetric linear system. We solve the system by **PCG** solver.  
+
+
+### Variational pressure solver
+This solver is an implementation of  
+*"A fast variational framework for accurate solid-fluid coupling", Batty, SIGGRAPH'07*.  
+https://cs.uwaterloo.ca/~c2batty/papers/Batty07.pdf  
+In xFluid, we concentrate fluid only.  
+In this varational framework, we solve pressure by minimizing the kinetic energy of the fluid system. We first write down the total kinetic energy of fluid, and then take derivate, after which we will get a positive definite symmetric linear system.
+
