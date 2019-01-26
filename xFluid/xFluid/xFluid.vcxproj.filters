@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{56b9fdfd-b32c-4f3f-a103-83ad0a8a7963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PressureSolver">
+      <UniqueIdentifier>{39d9e951-b5e5-4861-ab6e-f7691eadb016}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="directeddistancefield.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="spatialpointgrid.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="trianglemesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="fragmentedvector.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="array3d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gridindex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fluidmesher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stopwatch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constantforce.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xfluidutil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variationalpressure\blas_wrapper.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="variationalpressure\pcg_solver.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="variationalpressure\sparse_matrix.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="variationalpressure\util.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="variationalpressure\variational_pressuresolver.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="pressuresolver.h">
+      <Filter>PressureSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="fluidsource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="directeddistancefield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="spatialpointgrid.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="trianglemesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="fluidmesher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stopwatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xfluidutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variationalpressure\variational_pressuresolver.cpp">
+      <Filter>PressureSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="pressuresolver.cpp">
+      <Filter>PressureSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="fluidsource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
