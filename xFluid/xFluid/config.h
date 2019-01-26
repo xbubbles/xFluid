@@ -3,5 +3,5 @@
 
 namespace Config
 {
-	std::string outputFild = "H:\\xFluidOutput\\";
+	std::string outputFild = "D:\\Projects\\xFluid\\xFluidOutput\\";
 }

@@ -299,8 +299,8 @@ void FluidSimulator::timeStep(double dt, bool outputMesh)
 		output_file = output_file + std::to_string(_curFrameCount) + std::string(".ply");
 
 		mesh.writeMeshToPLY(output_file);
-
 		timers[2].stop();
+		cout << "Mesh dir: " << output_file.c_str() << endl;
 		cout << "Generate mesh:  " << timers[2].getTime() << endl;
 	}
 	
