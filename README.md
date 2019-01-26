@@ -23,3 +23,6 @@ https://github.com/rlguy/GridFluidSim3D
 XFluid doesn't depend on other libraries.  
 1. This is a project built on VS2015;
 2. To run the project, modify the output direction to any direction you want in *'config.h'*.
+
+## Others
+The image show on this page is rendered by Blender. And the you can find the render scripts in this repository(the Python files).
