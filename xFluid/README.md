@@ -20,11 +20,8 @@ xFluid contains two different pressure solvers:
 2. Variational pressure solver.  
 
 ### Normal pressure solver
-This pressure solver directly calculate pressure by solve the uncompressible equation:  
-```math
-\nabla \mathbf{u} = 0
-```
-Discrete this equation in 3D grids, and we will get a positive definite symmetric linear system. We solve the system by **PCG** solver.  
+This pressure solver directly calculate pressure by solve the uncompressible equation.   
+Discrete the equation in 3D grids, and we will get a positive definite symmetric linear system. We solve the system by **PCG** solver.  
 
 
 ### Variational pressure solver
