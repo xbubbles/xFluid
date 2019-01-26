@@ -34,3 +34,4 @@ https://cs.uwaterloo.ca/~c2batty/papers/Batty07.pdf
 In xFluid, we concentrate fluid only.  
 In this varational framework, we solve pressure by minimizing the kinetic energy of the fluid system. We first write down the total kinetic energy of fluid, and then take derivate, after which we will get a positive definite symmetric linear system.
 
+ 
