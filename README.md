@@ -1,6 +1,18 @@
 # xFluid
+<div align=center>
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_1.png" width = 40% />
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_2.png" width = 40% />
+</div>
 
-![image](https://github.com/xbubbles/image_repository/blob/master/img_xfluid_5.png)
+<div align=center>
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_3.png" width = 40% />
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_4.png" width = 40% />
+</div>
+
+<div align=center>
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_5.png" width = 40% />
+<img src="https://github.com/xbubbles/image_repository/blob/master/img_xfluid_6.png" width = 40% />
+</div>
 
 XFluid is a fluid simulation project. It simulate 3D water using grdi based methods.  
 
